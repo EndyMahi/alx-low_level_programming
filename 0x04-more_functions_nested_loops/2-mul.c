@@ -1,11 +1,12 @@
 #include "main.h"
 
 /**
- * _isdigit - checks for a digit (0 through 9)
- * @num: int to be checked
- * Return: 1 if num is a digit, 0 otherwise
+ * mul - multiplies two integers.
+ * @a: first number.
+ * @b: second number.
+ * Return: multiplication.
  */
-int _isdigit(int num)
+int mul(int a, int b)
 {
-	return (num >= '0' && num <= '9');
+return (a * b);
 }
